@@ -8,6 +8,7 @@ async function bootstrap() {
    * Dto Validator Check Options
    */
   app.useGlobalPipes(
+    // value check
     new ValidationPipe({
       transform: true,
       whitelist: true,
